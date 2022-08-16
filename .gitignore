@@ -1,0 +1,4 @@
+# This repo lives in the custom folder.
+# See also: https://rss-bridge.github.io/rss-bridge/For_Hosts/Docker_Installation.html#adding-custom-bridges-and-configurations
+config.ini.php
+whitelist.txt
