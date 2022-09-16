@@ -18,7 +18,7 @@ class HelloGitHubBridge extends XPathAbstract {
     // const XPATH_EXPRESSION_ITEM_CATEGORIES = '';
 
     protected function provideWebsiteContent() {
-        return defaultLinkTo(parent::provideWebsiteContent($this->feedUri), static::URI);
+        return defaultLinkTo(parent::provideWebsiteContent(), static::URI);
     }
 
     protected function formatItemContent($uri) {

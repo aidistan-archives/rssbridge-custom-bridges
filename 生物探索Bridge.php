@@ -36,7 +36,7 @@ class 生物探索Bridge extends XPathAbstract {
     }
 
     protected function provideWebsiteContent() {
-        return defaultLinkTo(parent::provideWebsiteContent($this->feedUri), static::URI);
+        return defaultLinkTo(parent::provideWebsiteContent(), static::URI);
     }
 
     protected function formatItemContent($uri) {
